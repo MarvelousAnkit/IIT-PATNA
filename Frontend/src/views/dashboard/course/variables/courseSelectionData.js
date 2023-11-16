@@ -1,0 +1,48 @@
+const courseSelectionData = [
+    {
+        id: 1,
+        code: "CSE 110",
+        title: "Programming Language I",
+        courseStructure: "3-0-3",
+        credit: 3,
+        preReq: "None",
+        coReq: "None",
+        courseType: "Theory",
+        courseCategory: "Major",
+    },
+    {
+        id: 2,
+        code: "CSE 111",
+        title: "Programming Language I Lab",
+        courseStructure: "3-0-3",
+        credit: 1,
+        preReq: "None",
+        coReq: "None",
+        courseType: "Lab",
+        courseCategory: "Major",
+    },
+    {
+        id: 3,
+        code: "EE 340",
+        title: "Digital Electronics",
+        courseStructure: "3-0-3",
+        credit: 3,
+        preReq: "None",
+        coReq: "None",
+        courseType: "Theory",
+        courseCategory: "Major",
+    },
+    {
+        id: 4,
+        code: "CS 229",
+        title: "Discrete Mathematics",
+        courseStructure: "3-0-3",
+        credit: 3,
+        preReq: "None",
+        coReq: "None",
+        courseType: "Theory",
+        courseCategory: "Major",
+    },
+]
+
+export { courseSelectionData };
